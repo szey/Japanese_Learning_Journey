@@ -1,0 +1,17 @@
+[
+  {"item_id":"hira-a","kana":"あ","romanization":"a","script_type":"hiragana","group":"a-row","sample":"あさ"},
+  {"item_id":"hira-i","kana":"い","romanization":"i","script_type":"hiragana","group":"a-row","sample":"いえ"},
+  {"item_id":"hira-u","kana":"う","romanization":"u","script_type":"hiragana","group":"a-row","sample":"うみ"},
+  {"item_id":"hira-e","kana":"え","romanization":"e","script_type":"hiragana","group":"a-row","sample":"えき"},
+  {"item_id":"hira-o","kana":"お","romanization":"o","script_type":"hiragana","group":"a-row","sample":"おちゃ"},
+  {"item_id":"hira-ka","kana":"か","romanization":"ka","script_type":"hiragana","group":"ka-row","sample":"かさ"},
+  {"item_id":"hira-ki","kana":"き","romanization":"ki","script_type":"hiragana","group":"ka-row","sample":"きた"},
+  {"item_id":"hira-ku","kana":"く","romanization":"ku","script_type":"hiragana","group":"ka-row","sample":"くち"},
+  {"item_id":"hira-ke","kana":"け","romanization":"ke","script_type":"hiragana","group":"ka-row","sample":"けむり"},
+  {"item_id":"hira-ko","kana":"こ","romanization":"ko","script_type":"hiragana","group":"ka-row","sample":"こえ"},
+  {"item_id":"kata-a","kana":"ア","romanization":"a","script_type":"katakana","group":"katakana-a-row","sample":"アイス"},
+  {"item_id":"kata-i","kana":"イ","romanization":"i","script_type":"katakana","group":"katakana-a-row","sample":"インク"},
+  {"item_id":"kata-u","kana":"ウ","romanization":"u","script_type":"katakana","group":"katakana-a-row","sample":"ウイスキー"},
+  {"item_id":"kata-e","kana":"エ","romanization":"e","script_type":"katakana","group":"katakana-a-row","sample":"エア"},
+  {"item_id":"kata-o","kana":"オ","romanization":"o","script_type":"katakana","group":"katakana-a-row","sample":"オレンジ"}
+]
