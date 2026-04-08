@@ -1,0 +1,9 @@
+{
+  "pack_id": "pack-pre-n5",
+  "pack_version": "v1",
+  "stage": "pre-n5",
+  "title": "Pre-N5 Foundation Pack",
+  "firmware_min_version": "0.1.0",
+  "estimated_total_sessions": 20,
+  "content_version": 1
+}
