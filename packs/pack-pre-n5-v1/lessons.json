@@ -1,0 +1,82 @@
+[
+  {
+    "lesson_id": "hira-a-row",
+    "title": "Hiragana A Row",
+    "module": "hiragana",
+    "type": "kana_row",
+    "order": 1,
+    "estimated_minutes": 5,
+    "unlock_rule": null,
+    "content_refs": ["kana:a-row"]
+  },
+  {
+    "lesson_id": "hira-ka-row",
+    "title": "Hiragana Ka Row",
+    "module": "hiragana",
+    "type": "kana_row",
+    "order": 2,
+    "estimated_minutes": 5,
+    "unlock_rule": "complete:hira-a-row",
+    "content_refs": ["kana:ka-row"]
+  },
+  {
+    "lesson_id": "kata-a-row",
+    "title": "Katakana A Row",
+    "module": "katakana",
+    "type": "kana_row",
+    "order": 3,
+    "estimated_minutes": 5,
+    "unlock_rule": "complete:hira-ka-row",
+    "content_refs": ["kana:katakana-a-row"]
+  },
+  {
+    "lesson_id": "starter-reading-1",
+    "title": "Starter Reading 1",
+    "module": "starter_reading",
+    "type": "reading_drill",
+    "order": 4,
+    "estimated_minutes": 6,
+    "unlock_rule": "complete:kata-a-row",
+    "content_refs": ["vocab:starter-reading-set-1"]
+  },
+  {
+    "lesson_id": "survival-greetings-1",
+    "title": "Greetings and Basics",
+    "module": "survival_vocab",
+    "type": "vocab_set",
+    "order": 5,
+    "estimated_minutes": 6,
+    "unlock_rule": "complete:starter-reading-1",
+    "content_refs": ["vocab:greetings-set-1"]
+  },
+  {
+    "lesson_id": "numbers-1-20",
+    "title": "Numbers 1 to 20",
+    "module": "survival_vocab",
+    "type": "vocab_set",
+    "order": 6,
+    "estimated_minutes": 6,
+    "unlock_rule": "complete:survival-greetings-1",
+    "content_refs": ["vocab:numbers-1-20"]
+  },
+  {
+    "lesson_id": "quiz-kana-1",
+    "title": "Kana Quiz 1",
+    "module": "quiz",
+    "type": "quiz",
+    "order": 7,
+    "estimated_minutes": 5,
+    "unlock_rule": "complete:numbers-1-20",
+    "content_refs": ["quiz:kana-core-1"]
+  },
+  {
+    "lesson_id": "quiz-mixed-1",
+    "title": "Mixed Review Quiz 1",
+    "module": "quiz",
+    "type": "quiz",
+    "order": 8,
+    "estimated_minutes": 5,
+    "unlock_rule": "complete:quiz-kana-1",
+    "content_refs": ["quiz:mixed-core-1"]
+  }
+]
