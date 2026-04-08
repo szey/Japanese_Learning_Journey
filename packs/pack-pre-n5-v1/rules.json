@@ -1,0 +1,14 @@
+{
+  "completion_rules": {
+    "hiragana_mastery_min": 90,
+    "katakana_mastery_min": 85,
+    "vocab_mastery_min": 80,
+    "quiz_pass_count_min": 3,
+    "mixed_quiz_best_score_min": 80
+  },
+  "mastery_states": ["new", "learning", "review", "mastered"],
+  "promotion_rule": {
+    "correct_count_for_mastered": 3,
+    "max_recent_failure_for_mastered": 0
+  }
+}
