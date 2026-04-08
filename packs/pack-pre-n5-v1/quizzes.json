@@ -1,0 +1,44 @@
+[
+  {
+    "quiz_id": "kana-core-1-q1",
+    "quiz_type": "kana_to_romanization",
+    "prompt": "あ",
+    "answer": "a",
+    "options": ["a", "i", "u", "e"]
+  },
+  {
+    "quiz_id": "kana-core-1-q2",
+    "quiz_type": "kana_to_romanization",
+    "prompt": "き",
+    "answer": "ki",
+    "options": ["ki", "ka", "shi", "ri"]
+  },
+  {
+    "quiz_id": "kana-core-1-q3",
+    "quiz_type": "romanization_to_kana",
+    "prompt": "ko",
+    "answer": "こ",
+    "options": ["こ", "け", "か", "く"]
+  },
+  {
+    "quiz_id": "mixed-core-1-q1",
+    "quiz_type": "word_meaning_match",
+    "prompt": "ありがとう",
+    "answer": "thank you",
+    "options": ["thank you", "good evening", "water", "house"]
+  },
+  {
+    "quiz_id": "mixed-core-1-q2",
+    "quiz_type": "number_reading_match",
+    "prompt": "3",
+    "answer": "さん",
+    "options": ["に", "さん", "ご", "よん"]
+  },
+  {
+    "quiz_id": "mixed-core-1-q3",
+    "quiz_type": "word_reading_match",
+    "prompt": "テスト",
+    "answer": "tesuto",
+    "options": ["tesuto", "neko", "mizu", "asa"]
+  }
+]
